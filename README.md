@@ -12,6 +12,11 @@ ModelDuet is a manually invoked Claude Code skill that pairs **Fable 5** with
 No orchestration server, proxy, or application code is required. ModelDuet is
 one `SKILL.md` file that coordinates the Claude Code and Codex CLIs.
 
+![ModelDuet workflow demo](docs/demo.gif)
+
+*Illustrated workflow. The reproducible source is documented in
+[DEMO.md](DEMO.md).*
+
 ## Why ModelDuet?
 
 A single model often plans, implements, and reviews its own assumptions.
@@ -138,9 +143,14 @@ the environmental failure before running it again.
 
 ```text
 modelduet/
-├── SKILL.md     # Claude Code workflow
-├── README.md    # User documentation
-└── LICENSE      # MIT license
+├── docs/
+│   ├── demo.gif     # README animation
+│   ├── demo.sh      # Deterministic terminal walkthrough
+│   └── demo.tape    # VHS recording definition
+├── DEMO.md          # Demo notes and regeneration
+├── SKILL.md         # Claude Code workflow
+├── README.md        # User documentation
+└── LICENSE          # MIT license
 ```
 
 The landing page will be added after its design specification is finalized.
