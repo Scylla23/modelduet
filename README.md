@@ -153,8 +153,6 @@ modelduet/
 └── LICENSE          # MIT license
 ```
 
-The landing page will be added after its design specification is finalized.
-
 ## Contributing
 
 Issues and focused pull requests are welcome. Keep the skill self-contained,
